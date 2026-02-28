@@ -1,2 +1,5 @@
+from rlplayground.main import run
+
+
 def main() -> None:
-    pass
+    run()
