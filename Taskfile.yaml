@@ -1,0 +1,8 @@
+version: '3'
+
+tasks:
+  lint:
+    cmds:
+      - uv run ruff format .
+      - uv run ruff check --fix .
+
